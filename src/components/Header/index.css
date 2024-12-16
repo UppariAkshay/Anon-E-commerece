@@ -1,0 +1,64 @@
+.headerNAV
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.socialAppsUL
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.socialAppLI
+{
+    background-color: #f2f2f2;
+    color: #787878;
+    padding: 7px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.header2DIV
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.searchElementDIV
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(170, 161, 161);
+    border-radius: 8px;
+    width: 700px;
+}
+
+.searchElINPUT
+{
+    border-width: 0px;
+    width: 100%;
+    padding: 10px;
+}
+
+.searchIconBUTTON
+{
+    background: transparent;
+    border-width: 0px;
+}
+
+.profileLikeBagContainerUL
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    list-style-type: none;
+}

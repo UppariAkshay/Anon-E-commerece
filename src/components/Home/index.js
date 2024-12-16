@@ -1,8 +1,12 @@
-
+import Header from "../Header"
+import './index.css'
 const Home = () => {
     console.log('home render')
     return (
-        <h1>Home</h1>
+        <div className="homeContainerDIV">
+        <Header />
+        
+        </div>
     )
 }
 
